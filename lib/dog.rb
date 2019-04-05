@@ -8,10 +8,8 @@ class Dog
   end
 
     def self.all
-      count = 0
-      while count < @@all.length
-        puts @@all[count]
-        count += 1
+      @@all.each do |name|
+        puts name
       end
     end
 
