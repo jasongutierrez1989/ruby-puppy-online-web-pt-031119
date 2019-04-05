@@ -8,9 +8,7 @@ class Dog
   end
 
     def self.all
-      @@all.each do |name|
-        puts name
-      end
+      @@all.inspect
     end
 
     def self.clear_all
